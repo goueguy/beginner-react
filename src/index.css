@@ -1,0 +1,32 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+.tweet{
+    background:#cceed0;
+    padding: 15px;
+    border:1px solid blue;
+    width: 450px;
+    min-width: 320px;
+    position: relative;
+}
+
+.tweetContainer{
+    display: flex;
+    gap:16px;
+    flex-wrap: wrap;
+}
+
+.delete {
+    position: absolute;
+    right: 52px;
+    left: 430px;
+}
+
+.tweetForm{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: fit-content;
+    gap:8px;
+    margin-bottom: 32px;
+}
